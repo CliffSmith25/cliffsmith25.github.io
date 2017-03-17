@@ -53,7 +53,4 @@ jQuery(document).ready(function($) {
         
         }
     );
-    
-
-
 });
