@@ -1,4 +1,5 @@
 <script>
   s = window.location;
-  window.location.replace("https://localhost:7267/?search=" + s);
+  query = s.split('?')[1];
+  window.location.replace("https://localhost:7267/?" + query);
 </script>
