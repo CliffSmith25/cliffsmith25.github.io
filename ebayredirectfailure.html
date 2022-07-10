@@ -1,0 +1,5 @@
+<script>
+  s = window.location.toString();
+  query = s.substring(s.indexOf('?') + 1);
+  window.location.replace("https://localhost:7267/failure?" + query);
+</script>
