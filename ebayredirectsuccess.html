@@ -1,5 +1,5 @@
 <script>
   s = window.location;
-  query = s.split('?')[1];
+  query = s.substring(s.indexOf('?') + 1);
   window.location.replace("https://localhost:7267/Success.html?" + query);
 </script>
